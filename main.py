@@ -12,6 +12,8 @@ st.set_page_config(
 st.title('Data Visualisation with streamlit')
 
 st.write("This is new changes ")
+st.write("This is new changes ")
+
 with st.sidebar():
     uploaded_file = st.file_uploader("Upload CSV")
 
